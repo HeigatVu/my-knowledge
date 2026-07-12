@@ -1,0 +1,208 @@
+{
+  "recentFiles": [
+    {
+      "basename": "Introduction",
+      "path": "Neuroscience/01_Computational-neuroscience/Introduction.md"
+    },
+    {
+      "basename": "1_Vector-Space",
+      "path": "Signal_Processing/02_Signal-Vector-Space/1_Vector-Space.md"
+    },
+    {
+      "basename": "Introduction_neocortex1",
+      "path": "10_System/Attachments/Introduction_neocortex1.png"
+    },
+    {
+      "basename": "2_Bases",
+      "path": "Signal_Processing/02_Signal-Vector-Space/2_Bases.md"
+    },
+    {
+      "basename": "Inner-Product-L2-Space",
+      "path": "Signal_Processing/02_Signal-Vector-Space/extension knowledge/Inner-Product-L2-Space.md"
+    },
+    {
+      "basename": "Hilbert Space",
+      "path": "Signal_Processing/02_Signal-Vector-Space/extension knowledge/Hilbert Space.md"
+    },
+    {
+      "basename": "Norm-and-Distance",
+      "path": "Signal_Processing/02_Signal-Vector-Space/extension knowledge/Norm-and-Distance.md"
+    },
+    {
+      "basename": "Space of Square-Summable Infinite Sequences",
+      "path": "Signal_Processing/02_Signal-Vector-Space/extension knowledge/Space of Square-Summable Infinite Sequences.md"
+    },
+    {
+      "basename": "Space of Square-Integrable Functions",
+      "path": "Signal_Processing/02_Signal-Vector-Space/extension knowledge/Space of Square-Integrable Functions.md"
+    },
+    {
+      "basename": "Linear Algebra",
+      "path": "Signal_Processing/02_Signal-Vector-Space/extension knowledge/Linear Algebra.md"
+    },
+    {
+      "basename": "Euclidean Space",
+      "path": "Signal_Processing/02_Signal-Vector-Space/extension knowledge/Euclidean Space.md"
+    },
+    {
+      "basename": "Euclidean Space_R2-graphic",
+      "path": "10_System/Attachments/Euclidean Space_R2-graphic.png"
+    },
+    {
+      "basename": "Signal-Fundamentals",
+      "path": "Signal_Processing/01_Fundamentals/Signal-Fundamentals.md"
+    },
+    {
+      "basename": "Aliasing",
+      "path": "Signal_Processing/01_Fundamentals/extension knowledge/Aliasing.md"
+    },
+    {
+      "basename": "Signal-Processing-canvas",
+      "path": "Signal_Processing/Signal-Processing-canvas.canvas"
+    },
+    {
+      "basename": "Complex-Exponentials",
+      "path": "Signal_Processing/01_Fundamentals/extension knowledge/Complex-Exponentials.md"
+    },
+    {
+      "basename": "Discrete-Time-Signals",
+      "path": "Signal_Processing/01_Fundamentals/extension knowledge/Discrete-Time-Signals.md"
+    },
+    {
+      "basename": "Basic-Signal-Processing",
+      "path": "Signal_Processing/01_Fundamentals/extension knowledge/Basic-Signal-Processing.md"
+    },
+    {
+      "basename": "Operational-Amplifiers",
+      "path": "Signal_Processing/00_Hardware/Operational-Amplifiers.md"
+    },
+    {
+      "basename": "Energy-and-Power-Signals",
+      "path": "Signal_Processing/01_Fundamentals/extension knowledge/Energy-and-Power-Signals.md"
+    },
+    {
+      "basename": "Sampling-Theory",
+      "path": "Signal_Processing/01_Fundamentals/extension knowledge/Sampling-Theory.md"
+    },
+    {
+      "basename": "Signal-Fundamentals_sinusoid",
+      "path": "10_System/Attachments/Signal-Fundamentals_sinusoid.png"
+    },
+    {
+      "basename": "Signal-Fundamentals_shift-finite-support",
+      "path": "10_System/Attachments/Signal-Fundamentals_shift-finite-support.png"
+    },
+    {
+      "basename": "Signal-Fundamentals_exponential-decay",
+      "path": "10_System/Attachments/Signal-Fundamentals_exponential-decay.png"
+    },
+    {
+      "basename": "Signal-Fundamentals_delta-signal",
+      "path": "10_System/Attachments/Signal-Fundamentals_delta-signal.png"
+    },
+    {
+      "basename": "Signal-Fundamentals_unit-step",
+      "path": "10_System/Attachments/Signal-Fundamentals_unit-step.png"
+    },
+    {
+      "basename": "Signal-Fundamentals_shift-length-periodic",
+      "path": "10_System/Attachments/Signal-Fundamentals_shift-length-periodic.png"
+    },
+    {
+      "basename": "sampling-Theory_Sampling-sinc-reconstruction",
+      "path": "10_System/Attachments/sampling-Theory_Sampling-sinc-reconstruction.png"
+    },
+    {
+      "basename": "sampling-Theory_Sampling-final-reverse-reconstruction",
+      "path": "10_System/Attachments/sampling-Theory_Sampling-final-reverse-reconstruction.png"
+    },
+    {
+      "basename": "sampling-Theory_Sampling-per-point-calculation",
+      "path": "10_System/Attachments/sampling-Theory_Sampling-per-point-calculation.png"
+    },
+    {
+      "basename": "sampling-Theory_Sampling-continuous-to-discrete",
+      "path": "10_System/Attachments/sampling-Theory_Sampling-continuous-to-discrete.png"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "Piau2019-Current State of Digital Buimarker Technologies or Real-Life Home-Based Monitoring of Cognitive Function for MCI to AD",
+      "path": "20_raw/20.1_papers/digital-biomarker/Piau2019-Current State of Digital Buimarker Technologies or Real-Life Home-Based Monitoring of Cognitive Function for MCI to AD.pdf"
+    },
+    {
+      "basename": "Kourtis2019-Digital biomarker for AD",
+      "path": "20_raw/20.1_papers/digital-biomarker/Kourtis2019-Digital biomarker for AD.pdf"
+    },
+    {
+      "basename": "Hajjar2023 - Development of digital voice biomarkers and associations with cognition",
+      "path": "20_raw/20.1_papers/digital-biomarker/Hajjar2023 - Development of digital voice biomarkers and associations with cognition.pdf"
+    },
+    {
+      "basename": "Iulita2025 - Digital biomarkers  Redefining clinical outcomes and the concept of",
+      "path": "20_raw/20.1_papers/digital-biomarker/Iulita2025 - Digital biomarkers  Redefining clinical outcomes and the concept of.pdf"
+    },
+    {
+      "basename": "Ullah2025-Digital Buimarkers for early detection of AD",
+      "path": "20_raw/20.1_papers/digital-biomarker/Ullah2025-Digital Buimarkers for early detection of AD.pdf"
+    },
+    {
+      "basename": "Qi2025-AD digital biomarkers multidimensional landscape and AI model",
+      "path": "20_raw/20.1_papers/digital-biomarker/Qi2025-AD digital biomarkers multidimensional landscape and AI model.pdf"
+    },
+    {
+      "basename": "Mohs2024 - The Bio‐Hermes Study  Biomarker database developed to investigate blood‐based and",
+      "path": "20_raw/20.1_papers/digital-biomarker/Mohs2024 - The Bio‐Hermes Study  Biomarker database developed to investigate blood‐based and.pdf"
+    },
+    {
+      "basename": "Butler2024-the-development-and-validation-of-a-digital-biomarker-for-remote-assessment-of-alzheimer-s-diseases",
+      "path": "20_raw/20.1_papers/digital-biomarker/Butler2024-the-development-and-validation-of-a-digital-biomarker-for-remote-assessment-of-alzheimer-s-diseases.pdf"
+    },
+    {
+      "basename": "Kourtis2019-Digital biomarker for AD",
+      "path": "20_raw/20.2_notes/digital-biomarker/Kourtis2019-Digital biomarker for AD.md"
+    },
+    {
+      "basename": "Piau2019-Current State of Digital Buimarker Technologies or Real-Life Home-Based Monitoring of Cognitive Function for MCI to AD",
+      "path": "20_raw/20.2_notes/digital-biomarker/Piau2019-Current State of Digital Buimarker Technologies or Real-Life Home-Based Monitoring of Cognitive Function for MCI to AD.md"
+    },
+    {
+      "basename": "GEMINI",
+      "path": "GEMINI.md"
+    },
+    {
+      "basename": "2026-04-28.excalidraw",
+      "path": "20_raw/20.2_notes/Reports/2026-04-28.excalidraw.md"
+    },
+    {
+      "basename": "Paper Summary Template",
+      "path": "10_System/Templates/Paper Summary Template.md"
+    },
+    {
+      "basename": "Book Template",
+      "path": "10_System/Templates/Book Template.md"
+    },
+    {
+      "basename": "overview",
+      "path": "30_wiki/overview.md"
+    },
+    {
+      "basename": "log",
+      "path": "30_wiki/log.md"
+    },
+    {
+      "basename": "index",
+      "path": "30_wiki/index.md"
+    },
+    {
+      "basename": "Ouyang2024-ADMarker",
+      "path": "20_raw/20.1_papers/digital-biomarker/Ouyang2024-ADMarker.pdf"
+    }
+  ],
+  "omittedPaths": [],
+  "omittedTags": [],
+  "updateOn": "file-open",
+  "omitBookmarks": false
+}

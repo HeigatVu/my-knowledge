@@ -1,0 +1,313 @@
+{
+  "main": {
+    "id": "f8ccef84bf1fa76e",
+    "type": "split",
+    "children": [
+      {
+        "id": "b4c04bd2f5cd9dcb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f9d34ba16f11fafa",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "terminal:terminal",
+              "state": {
+                "terminal:terminal": {
+                  "cwd": "/home/HeigatWorkspace/My-file/my-project/my-assistance/sandbox-data/my-data/Obsidian-llm-wiki/my-knowledge",
+                  "focus": false,
+                  "profile": {
+                    "args": [
+                      "--login"
+                    ],
+                    "executable": "/usr/bin/zsh",
+                    "followTheme": true,
+                    "name": "my-terminal",
+                    "platforms": {
+                      "darwin": false,
+                      "linux": true
+                    },
+                    "pythonExecutable": "python3",
+                    "restoreHistory": false,
+                    "rightClickAction": "copyPaste",
+                    "successExitCodes": [
+                      "0",
+                      "SIGINT",
+                      "SIGTERM"
+                    ],
+                    "terminalOptions": {
+                      "documentOverride": null
+                    },
+                    "type": "integrated",
+                    "useWin32Conhost": true
+                  },
+                  "serial": null
+                }
+              },
+              "pinned": true,
+              "icon": "terminal",
+              "title": "Terminal: my-terminal"
+            }
+          },
+          {
+            "id": "66f6edb1726ab116",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Neuroscience/01_Computational-neuroscience/Introduction.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Introduction"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fe80dcbda231ac08",
+    "type": "split",
+    "children": [
+      {
+        "id": "3d11c2b644124fd6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7d0bdc3cb3a6e79d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "5b1fffb76cbce689",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "7c89f901bf766e39",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 402.5
+  },
+  "right": {
+    "id": "87510591aecce802",
+    "type": "split",
+    "children": [
+      {
+        "id": "4feb326724f37d02",
+        "type": "tabs",
+        "dimension": 69.08396946564885,
+        "children": [
+          {
+            "id": "ebb038d10467220b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "f9129414808fd7a2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "20_raw/20.1_papers/digital-biomarker/Qi2025-AD digital biomarkers multidimensional landscape and AI model.pdf",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Qi2025-AD digital biomarkers multidimensional landscape and AI model"
+            }
+          },
+          {
+            "id": "2b14bc4b7b80eec0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "b176786fa9a0e494",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "6b641cc6e230cfe9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "dc825bd3dd57238b",
+        "type": "tabs",
+        "dimension": 30.916030534351147,
+        "children": [
+          {
+            "id": "88d5ce8aec713cd6",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 320.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:Open graph view": false,
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "markdown-importer:Open format converter": false,
+      "audio-recorder:Start/stop recording": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "templater-obsidian:Templater": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "terminal:Open terminal": false
+    }
+  },
+  "active": "f9d34ba16f11fafa",
+  "lastOpenFiles": [
+    "README.md",
+    "Neuroscience/01_Computational-neuroscience/Introduction.md",
+    "Neuroscience/00_overview",
+    "Signal_Processing/02_Signal-Vector-Space/1_Vector-Space.md",
+    "10_System/Attachments/Introduction_neocortex1.png",
+    "10_System/Attachments/Introduction_excitatory-inhibitory.png",
+    "10_System/Attachments/Introduction_chemical-synapses.png",
+    "10_System/Attachments/Introduction_neuron-variance.png",
+    "10_System/Attachments/Introduction_neuron.png",
+    "10_System/Attachments/Introduction_subcortical-regions.png",
+    "10_System/Attachments/Introduction_functional-localization.png",
+    "10_System/Attachments/Introduction_neuroscience.png",
+    "Signal_Processing/02_Signal-Vector-Space/2_Bases.md",
+    "Neuroscience/01_Computational-neuroscience/Intro.md",
+    "Neuroscience/01_Computational-neuroscience",
+    "Signal_Processing/02_Signal-Vector-Space/extension knowledge/Inner-Product-L2-Space.md",
+    "Signal_Processing/02_Signal-Vector-Space/extension knowledge/Hilbert Space.md",
+    "Signal_Processing/02_Signal-Vector-Space/extension knowledge/Norm-and-Distance.md",
+    "10_System/Attachments/Pasted image 20260625211959.png",
+    "Signal_Processing/02_Signal-Vector-Space/2_Signal-Space.md",
+    "Linguistic",
+    "Signal_Processing/02_Signal-Vector-Space/extension knowledge/Complex-Conjugate.md",
+    "10_System/Attachments/Vector-Space_inner-product-l2-special-case.png",
+    "Signal_Processing/02_Signal-Vector-Space/extension knowledge/Space of Square-Summable Infinite Sequences.md",
+    "Signal_Processing/02_Signal-Vector-Space/extension knowledge/Space of Square-Integrable Functions.md",
+    "Signal_Processing/02_Signal-Vector-Space/extension knowledge/Linear Algebra.md",
+    "Signal_Processing/02_Signal-Vector-Space/extension knowledge/Euclidean Space.md",
+    "Signal_Processing/02_Signal-Vector-Space/extension knowledge",
+    "Vector Spaces.md",
+    "Signal_Processing/01_Fundamentals/Signal-Fundamentals.md",
+    "Signal_Processing/01_Fundamentals/extension knowledge/Aliasing.md",
+    "Signal_Processing/Signal-Processing-canvas.canvas",
+    "Signal_Processing/02_Signal-Vector-Space",
+    "Signal_Processing/01_Fundamentals/extension knowledge/Complex-Exponentials.md",
+    "Signal_Processing/01_Fundamentals/extension knowledge/Discrete-Time-Signals.md",
+    "Signal_Processing/_MOC-Signal-Processing.md",
+    "Signal_Processing/00_Hardware/Digital-to-Analog-Converter.md",
+    "Signal_Processing/01_Fundamentals/extension knowledge/Basic-Signal-Processing.md",
+    "Signal_Processing/00_Hardware/Operational-Amplifiers.md",
+    "Signal_Processing/01_Fundamentals/split_file.py",
+    "Signal_Processing/01_Fundamentals/extension knowledge/Energy-and-Power-Signals.md",
+    "Signal_Processing/01_Fundamentals/extension knowledge/Sampling-Theory.md",
+    "20_raw/20.1_papers/Literature review/saeedi2024-acoustic-speech-analysis-in-alzheimer-disease.pdf",
+    "20_raw/20.1_papers/Literature review/Qi2025 - Alzheimer’s disease digital biomarkers multidimensional landscape and AI model scoping review.pdf",
+    "20_raw/20.1_papers/Literature review/Maysa2024-articulatory and phonological performance in people with MCI and AD a scoping review.pdf",
+    "20_raw/20.1_papers/Literature review/moraveji2025-recent advances in computational and machine learning approaches for alzheimer's disease classification.pdf",
+    "20_raw/20.2_notes/Reports/28042026.canvas",
+    "gtqrfedgfdgfd.canvas"
+  ]
+}
