@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Introduction",
-      "path": "Neuroscience/01_Computational-neuroscience/Introduction.md"
+      "basename": "01_Human Psychophysics",
+      "path": "Neuroscience/01_Computational-neuroscience/00_overview/01_Human Psychophysics.md"
+    },
+    {
+      "basename": "Signal-Processing-canvas",
+      "path": "Signal_Processing/Signal-Processing-canvas.canvas"
+    },
+    {
+      "basename": "00_Introduction",
+      "path": "Neuroscience/01_Computational-neuroscience/00_overview/00_Introduction.md"
     },
     {
       "basename": "1_Vector-Space",
       "path": "Signal_Processing/02_Signal-Vector-Space/1_Vector-Space.md"
     },
     {
-      "basename": "Introduction_neocortex1",
-      "path": "10_System/Attachments/Introduction_neocortex1.png"
+      "basename": "Introduction_neocortex-vertical-connectivity",
+      "path": "10_System/Attachments/Introduction_neocortex-vertical-connectivity.png"
     },
     {
       "basename": "2_Bases",
@@ -18,31 +26,31 @@
     },
     {
       "basename": "Inner-Product-L2-Space",
-      "path": "Signal_Processing/02_Signal-Vector-Space/extension knowledge/Inner-Product-L2-Space.md"
+      "path": "Signal_Processing/02_Signal-Vector-Space/knowledge extension/Inner-Product-L2-Space.md"
     },
     {
       "basename": "Hilbert Space",
-      "path": "Signal_Processing/02_Signal-Vector-Space/extension knowledge/Hilbert Space.md"
+      "path": "Signal_Processing/02_Signal-Vector-Space/knowledge extension/Hilbert Space.md"
     },
     {
       "basename": "Norm-and-Distance",
-      "path": "Signal_Processing/02_Signal-Vector-Space/extension knowledge/Norm-and-Distance.md"
+      "path": "Signal_Processing/02_Signal-Vector-Space/knowledge extension/Norm-and-Distance.md"
     },
     {
       "basename": "Space of Square-Summable Infinite Sequences",
-      "path": "Signal_Processing/02_Signal-Vector-Space/extension knowledge/Space of Square-Summable Infinite Sequences.md"
+      "path": "Signal_Processing/02_Signal-Vector-Space/knowledge extension/Space of Square-Summable Infinite Sequences.md"
     },
     {
       "basename": "Space of Square-Integrable Functions",
-      "path": "Signal_Processing/02_Signal-Vector-Space/extension knowledge/Space of Square-Integrable Functions.md"
+      "path": "Signal_Processing/02_Signal-Vector-Space/knowledge extension/Space of Square-Integrable Functions.md"
     },
     {
       "basename": "Linear Algebra",
-      "path": "Signal_Processing/02_Signal-Vector-Space/extension knowledge/Linear Algebra.md"
+      "path": "Signal_Processing/02_Signal-Vector-Space/knowledge extension/Linear Algebra.md"
     },
     {
       "basename": "Euclidean Space",
-      "path": "Signal_Processing/02_Signal-Vector-Space/extension knowledge/Euclidean Space.md"
+      "path": "Signal_Processing/02_Signal-Vector-Space/knowledge extension/Euclidean Space.md"
     },
     {
       "basename": "Euclidean Space_R2-graphic",
@@ -54,23 +62,19 @@
     },
     {
       "basename": "Aliasing",
-      "path": "Signal_Processing/01_Fundamentals/extension knowledge/Aliasing.md"
-    },
-    {
-      "basename": "Signal-Processing-canvas",
-      "path": "Signal_Processing/Signal-Processing-canvas.canvas"
+      "path": "Signal_Processing/01_Fundamentals/knowledge extension/Aliasing.md"
     },
     {
       "basename": "Complex-Exponentials",
-      "path": "Signal_Processing/01_Fundamentals/extension knowledge/Complex-Exponentials.md"
+      "path": "Signal_Processing/01_Fundamentals/knowledge extension/Complex-Exponentials.md"
     },
     {
       "basename": "Discrete-Time-Signals",
-      "path": "Signal_Processing/01_Fundamentals/extension knowledge/Discrete-Time-Signals.md"
+      "path": "Signal_Processing/01_Fundamentals/knowledge extension/Discrete-Time-Signals.md"
     },
     {
       "basename": "Basic-Signal-Processing",
-      "path": "Signal_Processing/01_Fundamentals/extension knowledge/Basic-Signal-Processing.md"
+      "path": "Signal_Processing/01_Fundamentals/knowledge extension/Basic-Signal-Processing.md"
     },
     {
       "basename": "Operational-Amplifiers",
@@ -78,11 +82,11 @@
     },
     {
       "basename": "Energy-and-Power-Signals",
-      "path": "Signal_Processing/01_Fundamentals/extension knowledge/Energy-and-Power-Signals.md"
+      "path": "Signal_Processing/01_Fundamentals/knowledge extension/Energy-and-Power-Signals.md"
     },
     {
       "basename": "Sampling-Theory",
-      "path": "Signal_Processing/01_Fundamentals/extension knowledge/Sampling-Theory.md"
+      "path": "Signal_Processing/01_Fundamentals/knowledge extension/Sampling-Theory.md"
     },
     {
       "basename": "Signal-Fundamentals_sinusoid",
@@ -195,10 +199,6 @@
     {
       "basename": "index",
       "path": "30_wiki/index.md"
-    },
-    {
-      "basename": "Ouyang2024-ADMarker",
-      "path": "20_raw/20.1_papers/digital-biomarker/Ouyang2024-ADMarker.pdf"
     }
   ],
   "omittedPaths": [],
