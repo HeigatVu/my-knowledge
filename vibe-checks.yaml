@@ -95,6 +95,20 @@ spec:
       paths:
         - README.md
 
+    experiment_done:
+      verifier: experiment
+      description: >-
+        Reads .agent-state/runs/<date>/<slug>/<version>/experiment/STATUS.md.
+        No host/CI training experiment applies to this content-only task;
+        STATUS.md records status: done with a note saying so.
+
+    results_acceptable:
+      verifier: results
+      description: >-
+        Reads experiment/METRICS.json together with STATUS.md. No metrics or
+        thresholds are declared for this content-only task, so this passes
+        vacuously once the experiment is terminal.
+
     tasks_remaining:
       verifier: tasks
       description: Reads docs/<date>/<slug>/<version>/tasks-<date>.json and the matching TASKS-<date>.md.
