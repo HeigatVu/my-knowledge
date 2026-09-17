@@ -1,0 +1,128 @@
+# How each check in this workspace is produced.
+#
+# This workspace is a personal Obsidian Markdown vault (my-knowledge), not a
+# software project: there is no package manager, build tool, test runner, or
+# linter installed at the workspace root. The checks below say so honestly
+# instead of faking a command that always exits 0 — "the check exited 0"
+# would not be a true statement about a program that does not exist here.
+#
+# Where a check genuinely has no tool to produce it (unit, lint, slop), it
+# proves the smallest true thing available instead: that the files a task
+# said it would touch actually exist and hold content (`verifier: files`).
+# Where GitHub's `gh` CLI already answers the question directly (pr_open, ci,
+# main_ci), the same commands the toolkit itself uses are reused verbatim,
+# since they are generic and this repo has a real `gh`-authenticated remote.
+#
+# Reference: .ai-agents/references/loop-and-graph-engineering.md (in the
+# vibe-agent toolkit this workspace's CLAUDE.md points at).
+
+apiVersion: vibe-agent/v1
+kind: CheckPlan
+
+metadata:
+  description: Checks for the my-knowledge Obsidian vault. No build/test/lint tooling exists here; checks read what actually happened on disk instead.
+
+spec:
+  checks:
+    unit:
+      description: >-
+        No test runner exists in a Markdown vault. Proves the files this
+        run's task said it would touch actually exist and hold content.
+      verifier: files
+      paths:
+        - AI_ML/07_Data-Collection-and-Preprocessing/01_Data-Collection-and-Preprocessing.md
+        - AI_ML/07_Data-Collection-and-Preprocessing/02_Feature-Extraction-and-Word-Embeddings.md
+        - AI_ML/07_Data-Collection-and-Preprocessing/03_Image-Feature-Extraction-and-Edge-Detection.md
+        - AI_ML/00_AI-Engineer-MOC.md
+
+    lint:
+      description: >-
+        No linter exists in a Markdown vault. Proves the same files parse as
+        real files on disk; wikilink resolution and template-shape review
+        happen by hand and are recorded in bug_hunt/FINDINGS.md.
+      verifier: files
+      paths:
+        - AI_ML/07_Data-Collection-and-Preprocessing/01_Data-Collection-and-Preprocessing.md
+        - AI_ML/07_Data-Collection-and-Preprocessing/02_Feature-Extraction-and-Word-Embeddings.md
+        - AI_ML/07_Data-Collection-and-Preprocessing/03_Image-Feature-Extraction-and-Edge-Detection.md
+
+    slop:
+      description: >-
+        The slop auditor targets application code (TSX/JS/TS heuristics); a
+        Markdown notes vault has none of the patterns it looks for. Proves
+        the same files exist rather than running a scanner with nothing to
+        scan.
+      verifier: files
+      paths:
+        - AI_ML/07_Data-Collection-and-Preprocessing/01_Data-Collection-and-Preprocessing.md
+        - AI_ML/00_AI-Engineer-MOC.md
+
+    pr_open:
+      description: Exits non-zero when the current branch has no pull request, which is what the node asks.
+      command: gh
+      args: [pr, view, --json, url]
+      timeoutSeconds: 120
+
+    ci:
+      description: Required PR checks. This repo configures none, so gh reports nothing pending or failing.
+      command: gh
+      args: [pr, checks]
+      timeoutSeconds: 600
+
+    reviews:
+      verifier: human
+      auto:
+        verifier: reviewbots
+        command: gh
+        args: [pr, checks, --json, 'name,bucket']
+        description: >-
+          No review-bot check-runs are configured on this repo, so this
+          passes trivially (no matching check-run at all passes, same as a
+          repo with none configured). Active only when the run's auto flag
+          is set.
+      description: >-
+        No external reviewer is configured on this personal vault repo. On a
+        human-driven /goal run this stays a person's call; the auto entry
+        above is what this /auto run actually uses.
+
+    main_ci:
+      description: >-
+        CI on the default branch after the merge lands. This repo has no
+        GitHub Actions workflow, so there is nothing to watch; treated as a
+        pass so a content-only merge does not block on infrastructure that
+        does not exist.
+      verifier: files
+      paths:
+        - README.md
+
+    tasks_remaining:
+      verifier: tasks
+      description: Reads docs/<date>/<slug>/<version>/tasks-<date>.json and the matching TASKS-<date>.md.
+
+    expectation_ok:
+      verifier: expectation
+      description: >-
+        Reads .agent-state/runs/<date>/<slug>/<version>/expectation/REVIEW.md,
+        checked against SPEC-2026-09-17.md's success criteria.
+
+    bug_hunt_ok:
+      verifier: bughunt
+      description: >-
+        Reads .agent-state/runs/<date>/<slug>/<version>/bug_hunt/FINDINGS.md.
+
+    release_ok:
+      verifier: release
+      description: >-
+        Reads .agent-state/runs/<date>/<slug>/<version>/release/REVIEW.md.
+
+    ship:
+      verifier: human
+      auto:
+        verifier: shipdecision
+        description: >-
+          Reads .agent-state/runs/<date>/<slug>/<version>/ship/DECISION.md.
+          Active only when the run's auto flag is set.
+      description: >-
+        /ship is a judgement call with no command whose exit code means GO.
+        On a human-driven /goal run this stays a person's call; the auto
+        entry above is what this /auto run actually uses.
