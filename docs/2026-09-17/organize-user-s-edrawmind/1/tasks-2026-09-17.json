@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "slug": "organize-user-s-edrawmind",
+  "date": "2026-09-17",
+  "version": 1,
+  "tasks": [
+    {
+      "id": "T1",
+      "title": "Write the enriched Cornell knowledge note",
+      "status": "queued",
+      "branch": "docs/model-evaluation-cornell-note",
+      "acceptance": "AI_ML/04_Model-Evaluation-and-Selection/01_Model-Evaluation-and-Selection.md exists, Cornell-formatted, with the full original mindmap preserved and correct cross-links."
+    }
+  ]
+}
