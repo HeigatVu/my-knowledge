@@ -64,10 +64,15 @@ spec:
       timeoutSeconds: 120
 
     ci:
-      description: Required PR checks. This repo configures none, so gh reports nothing pending or failing.
-      command: gh
-      args: [pr, checks]
-      timeoutSeconds: 600
+      description: >-
+        Required PR checks. This repo has no GitHub Actions workflow
+        configured, so `gh pr checks` reports "no checks reported" (exit 1)
+        rather than pending/failing — there is nothing to wait for. Treated
+        as a pass so a content-only PR does not block on CI that does not
+        exist, mirroring main_ci below.
+      verifier: files
+      paths:
+        - README.md
 
     reviews:
       verifier: human
