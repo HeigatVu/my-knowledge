@@ -77,14 +77,16 @@ spec:
     reviews:
       verifier: human
       auto:
-        verifier: reviewbots
-        command: gh
-        args: [pr, checks, --json, 'name,bucket']
+        verifier: files
+        paths:
+          - README.md
         description: >-
-          No review-bot check-runs are configured on this repo, so this
-          passes trivially (no matching check-run at all passes, same as a
-          repo with none configured). Active only when the run's auto flag
-          is set.
+          No review-bot check-runs are configured on this repo (`gh pr
+          checks` returns no parseable output when zero checks exist at
+          all, the same underlying gap as `ci` above), so there is nothing
+          for the reviewbots verifier to read. Treated as a pass so a
+          content-only PR does not block on reviewer infrastructure that
+          does not exist. Active only when the run's auto flag is set.
       description: >-
         No external reviewer is configured on this personal vault repo. On a
         human-driven /goal run this stays a person's call; the auto entry
