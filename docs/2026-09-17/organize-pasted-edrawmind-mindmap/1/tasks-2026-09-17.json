@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "slug": "organize-pasted-edrawmind-mindmap",
+  "date": "2026-09-17",
+  "version": 1,
+  "tasks": [
+    {
+      "id": "T1",
+      "title": "Expand the Data Collection & Preprocessing note set and update the MOC",
+      "status": "done",
+      "branch": "chore/organize-pasted-edrawmind-mindmap-task-1-notes",
+      "acceptance": "Full verbatim mindmap kept in 01_Data-Collection-and-Preprocessing.md; two new child notes follow the Cornell template and link back to it; MOC lists all three; every wikilink resolves."
+    }
+  ]
+}
